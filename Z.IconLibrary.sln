@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z.Examples.Web", "Z.Icon.Examples.Web\Z.Examples.Web.csproj", "{60BE11F2-282E-48B6-A8FC-1B87509BB392}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z.IconLibrary.Light", "Z.IconLibrary.Light\Z.IconLibrary.Light.csproj", "{CD9940AF-AB69-4930-9F25-F3085D0AE878}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z.IconLibrary", "Z.IconLibrary\Z.IconLibrary.csproj", "{FC660180-010E-4D95-A865-B4585F0F3D1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60BE11F2-282E-48B6-A8FC-1B87509BB392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60BE11F2-282E-48B6-A8FC-1B87509BB392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60BE11F2-282E-48B6-A8FC-1B87509BB392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60BE11F2-282E-48B6-A8FC-1B87509BB392}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD9940AF-AB69-4930-9F25-F3085D0AE878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD9940AF-AB69-4930-9F25-F3085D0AE878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD9940AF-AB69-4930-9F25-F3085D0AE878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD9940AF-AB69-4930-9F25-F3085D0AE878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC660180-010E-4D95-A865-B4585F0F3D1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC660180-010E-4D95-A865-B4585F0F3D1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC660180-010E-4D95-A865-B4585F0F3D1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC660180-010E-4D95-A865-B4585F0F3D1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

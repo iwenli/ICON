@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CD9940AF-AB69-4930-9F25-F3085D0AE878}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Z.IconLibrary</RootNamespace>
+    <AssemblyName>Z.IconLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Icon.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="EmbeddedWebResource.cs" />
+    <Compile Include="IconResourceHandler.cs" />
+    <Compile Include="ExtensionMethods\Icon\Icon.GetWebResourceUrl.cs" />
+    <Compile Include="ExtensionMethods\Icon\Icon.GetIcon.cs" />
+    <Compile Include="ExtensionMethods\Icon\Icon.GetImage.cs" />
+    <Compile Include="ExtensionMethods\Icon\Icon.GetCssClass.cs" />
+    <Compile Include="ExtensionMethods\Icon\Icon.GetUrl.cs" />
+    <Compile Include="ExtensionMethods\System.Web.Page\Page.AddIconStyleSheet.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon16\accept.png" />
+    <EmbeddedResource Include="Icon16\add.png" />
+    <EmbeddedResource Include="Icon16\application.png" />
+    <EmbeddedResource Include="Icon16\attach.png" />
+    <EmbeddedResource Include="Icon16\barcode.png" />
+    <EmbeddedResource Include="Icon16\basket.png" />
+    <EmbeddedResource Include="Icon16\battery.png" />
+    <EmbeddedResource Include="Icon16\beer.png" />
+    <EmbeddedResource Include="Icon16\bell.png" />
+    <EmbeddedResource Include="Icon16\bin_closed.png" />
+    <EmbeddedResource Include="Icon16\bug.png" />
+    <EmbeddedResource Include="Icon16\cancel.png" />
+    <EmbeddedResource Include="Icon16\cart.png" />
+    <EmbeddedResource Include="Icon16\cog.png" />
+    <EmbeddedResource Include="Icon16\color_swatch.png" />
+    <EmbeddedResource Include="Icon16\color_wheel.png" />
+    <EmbeddedResource Include="Icon16\comment.png" />
+    <EmbeddedResource Include="Icon16\cut.png" />
+    <EmbeddedResource Include="Icon16\database_yellow.png" />
+    <EmbeddedResource Include="Icon16\data_chooser.png" />
+    <EmbeddedResource Include="Icon16\disk.png" />
+    <EmbeddedResource Include="Icon16\disk_multiple.png" />
+    <EmbeddedResource Include="Icon16\download.png" />
+    <EmbeddedResource Include="Icon16\email.png" />
+    <EmbeddedResource Include="Icon16\error.png" />
+    <EmbeddedResource Include="Icon16\feed.png" />
+    <EmbeddedResource Include="Icon16\file_extension_doc.png" />
+    <EmbeddedResource Include="Icon16\file_extension_pdf.png" />
+    <EmbeddedResource Include="Icon16\file_extension_xls.png" />
+    <EmbeddedResource Include="Icon16\filter.png" />
+    <EmbeddedResource Include="Icon16\find.png" />
+    <EmbeddedResource Include="Icon16\folder.png" />
+    <EmbeddedResource Include="Icon16\font.png" />
+    <EmbeddedResource Include="Icon16\group.png" />
+    <EmbeddedResource Include="Icon16\help.png" />
+    <EmbeddedResource Include="Icon16\hourglass.png" />
+    <EmbeddedResource Include="Icon16\house.png" />
+    <EmbeddedResource Include="Icon16\information.png" />
+    <EmbeddedResource Include="Icon16\keyboard.png" />
+    <EmbeddedResource Include="Icon16\link.png" />
+    <EmbeddedResource Include="Icon16\lock.png" />
+    <EmbeddedResource Include="Icon16\lock_break.png" />
+    <EmbeddedResource Include="Icon16\magnifier.png" />
+    <EmbeddedResource Include="Icon16\magnifier_zoom_in.png" />
+    <EmbeddedResource Include="Icon16\magnifier_zoom_out.png" />
+    <EmbeddedResource Include="Icon16\monitor.png" />
+    <EmbeddedResource Include="Icon16\mouse.png" />
+    <EmbeddedResource Include="Icon16\page.png" />
+    <EmbeddedResource Include="Icon16\paste_plain.png" />
+    <EmbeddedResource Include="Icon16\pencil.png" />
+    <EmbeddedResource Include="Icon16\printer.png" />
+    <EmbeddedResource Include="Icon16\redo.png" />
+    <EmbeddedResource Include="Icon16\relationships.png" />
+    <EmbeddedResource Include="Icon16\report.png" />
+    <EmbeddedResource Include="Icon16\resultset_first.png" />
+    <EmbeddedResource Include="Icon16\resultset_last.png" />
+    <EmbeddedResource Include="Icon16\resultset_next.png" />
+    <EmbeddedResource Include="Icon16\resultset_previous.png" />
+    <EmbeddedResource Include="Icon16\sitemap.png" />
+    <EmbeddedResource Include="Icon16\sound.png" />
+    <EmbeddedResource Include="Icon16\sound_mute.png" />
+    <EmbeddedResource Include="Icon16\star.png" />
+    <EmbeddedResource Include="Icon16\style.png" />
+    <EmbeddedResource Include="Icon16\time.png" />
+    <EmbeddedResource Include="Icon16\undo.png" />
+    <EmbeddedResource Include="Icon16\update.png" />
+    <EmbeddedResource Include="Icon16\upload_for_cloud.png" />
+    <EmbeddedResource Include="Icon16\user.png" />
+    <EmbeddedResource Include="Icon16\world.png" />
+    <EmbeddedResource Include="Icon16\wrench.png" />
+    <EmbeddedResource Include="Icon32\accept.png" />
+    <EmbeddedResource Include="Icon32\add.png" />
+    <EmbeddedResource Include="Icon32\application.png" />
+    <EmbeddedResource Include="Icon32\attach.png" />
+    <EmbeddedResource Include="Icon32\barcode.png" />
+    <EmbeddedResource Include="Icon32\basket.png" />
+    <EmbeddedResource Include="Icon32\battery.png" />
+    <EmbeddedResource Include="Icon32\beer.png" />
+    <EmbeddedResource Include="Icon32\bell.png" />
+    <EmbeddedResource Include="Icon32\bin_closed.png" />
+    <EmbeddedResource Include="Icon32\bug.png" />
+    <EmbeddedResource Include="Icon32\cancel.png" />
+    <EmbeddedResource Include="Icon32\cart.png" />
+    <EmbeddedResource Include="Icon32\cog.png" />
+    <EmbeddedResource Include="Icon32\color_swatch.png" />
+    <EmbeddedResource Include="Icon32\color_wheel.png" />
+    <EmbeddedResource Include="Icon32\comment.png" />
+    <EmbeddedResource Include="Icon32\cut.png" />
+    <EmbeddedResource Include="Icon32\database_yellow.png" />
+    <EmbeddedResource Include="Icon32\data_chooser.png" />
+    <EmbeddedResource Include="Icon32\disk.png" />
+    <EmbeddedResource Include="Icon32\disk_multiple.png" />
+    <EmbeddedResource Include="Icon32\download.png" />
+    <EmbeddedResource Include="Icon32\email.png" />
+    <EmbeddedResource Include="Icon32\error.png" />
+    <EmbeddedResource Include="Icon32\feed.png" />
+    <EmbeddedResource Include="Icon32\file_extension_doc.png" />
+    <EmbeddedResource Include="Icon32\file_extension_pdf.png" />
+    <EmbeddedResource Include="Icon32\file_extension_xls.png" />
+    <EmbeddedResource Include="Icon32\filter.png" />
+    <EmbeddedResource Include="Icon32\find.png" />
+    <EmbeddedResource Include="Icon32\folder.png" />
+    <EmbeddedResource Include="Icon32\font.png" />
+    <EmbeddedResource Include="Icon32\group.png" />
+    <EmbeddedResource Include="Icon32\help.png" />
+    <EmbeddedResource Include="Icon32\hourglass.png" />
+    <EmbeddedResource Include="Icon32\house.png" />
+    <EmbeddedResource Include="Icon32\information.png" />
+    <EmbeddedResource Include="Icon32\keyboard.png" />
+    <EmbeddedResource Include="Icon32\link.png" />
+    <EmbeddedResource Include="Icon32\lock.png" />
+    <EmbeddedResource Include="Icon32\lock_break.png" />
+    <EmbeddedResource Include="Icon32\magnifier.png" />
+    <EmbeddedResource Include="Icon32\magnifier_zoom_in.png" />
+    <EmbeddedResource Include="Icon32\magnifier_zoom_out.png" />
+    <EmbeddedResource Include="Icon32\monitor.png" />
+    <EmbeddedResource Include="Icon32\mouse.png" />
+    <EmbeddedResource Include="Icon32\page.png" />
+    <EmbeddedResource Include="Icon32\paste_plain.png" />
+    <EmbeddedResource Include="Icon32\pencil.png" />
+    <EmbeddedResource Include="Icon32\printer.png" />
+    <EmbeddedResource Include="Icon32\redo.png" />
+    <EmbeddedResource Include="Icon32\relationships.png" />
+    <EmbeddedResource Include="Icon32\report.png" />
+    <EmbeddedResource Include="Icon32\resultset_first.png" />
+    <EmbeddedResource Include="Icon32\resultset_last.png" />
+    <EmbeddedResource Include="Icon32\resultset_next.png" />
+    <EmbeddedResource Include="Icon32\resultset_previous.png" />
+    <EmbeddedResource Include="Icon32\sitemap.png" />
+    <EmbeddedResource Include="Icon32\sound.png" />
+    <EmbeddedResource Include="Icon32\sound_mute.png" />
+    <EmbeddedResource Include="Icon32\star.png" />
+    <EmbeddedResource Include="Icon32\style.png" />
+    <EmbeddedResource Include="Icon32\time.png" />
+    <EmbeddedResource Include="Icon32\undo.png" />
+    <EmbeddedResource Include="Icon32\update.png" />
+    <EmbeddedResource Include="Icon32\upload_for_cloud.png" />
+    <EmbeddedResource Include="Icon32\user.png" />
+    <EmbeddedResource Include="Icon32\world.png" />
+    <EmbeddedResource Include="Icon32\wrench.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="resources\z-icon.css" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

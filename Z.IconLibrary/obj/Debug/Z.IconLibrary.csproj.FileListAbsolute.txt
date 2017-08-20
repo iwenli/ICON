@@ -1,0 +1,10 @@
+E:\项目\wwb调试\审核后台源码\Source Code - 39498\Z.IconLibrary\obj\Debug\Z.IconLibrary.csprojResolveAssemblyReference.cache
+E:\项目\wwb调试\审核后台源码\Source Code - 39498\Z.IconLibrary\bin\Debug\Z.IconLibrary.dll
+E:\项目\wwb调试\审核后台源码\Source Code - 39498\Z.IconLibrary\bin\Debug\Z.IconLibrary.pdb
+E:\项目\wwb调试\审核后台源码\Source Code - 39498\Z.IconLibrary\obj\Debug\Z.IconLibrary.dll
+E:\项目\wwb调试\审核后台源码\Source Code - 39498\Z.IconLibrary\obj\Debug\Z.IconLibrary.pdb
+C:\Users\jsonZhang\Desktop\CSharpIconLibrary_v1.0\Z.IconLibrary\bin\Debug\Z.IconLibrary.dll
+C:\Users\jsonZhang\Desktop\CSharpIconLibrary_v1.0\Z.IconLibrary\bin\Debug\Z.IconLibrary.pdb
+C:\Users\jsonZhang\Desktop\CSharpIconLibrary_v1.0\Z.IconLibrary\obj\Debug\Z.IconLibrary.csprojResolveAssemblyReference.cache
+C:\Users\jsonZhang\Desktop\CSharpIconLibrary_v1.0\Z.IconLibrary\obj\Debug\Z.IconLibrary.dll
+C:\Users\jsonZhang\Desktop\CSharpIconLibrary_v1.0\Z.IconLibrary\obj\Debug\Z.IconLibrary.pdb
